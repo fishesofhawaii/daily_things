@@ -1,4 +1,93 @@
 #background {
-	background-color: #CC99CC
+	background-color: #CC99CC;
+	height: 400px;
+	width: 800px;
+}
+#game1 {
+	position: absolute;
+	background-color: green;
+	height: 350px;
+	width: 140px;
+	left: 15px;
+	top: 25px;
+        text-align: center;
+}
+#game2 {
+        position: absolute;
+        background-color: red;
+        height: 350px;
+        width: 140px;
+	left: 175px;
+        top: 25px;
+        text-align: center;
 
 }
+#game3 {
+        position: absolute;
+        background-color: white;
+        height: 350px;
+        width: 140px;
+	left: 335px;
+        top: 25px;
+        text-align: center;
+
+}
+#game4 {
+        position: absolute;
+        background-color: blue;
+        height: 350px;
+        width: 140px;
+	left: 495px;
+        top: 25px;
+	text-align: center;
+}
+#game5 {
+        position: absolute;
+        background-color: orange;
+        height: 350px;
+        width: 140px;
+	left: 655px;
+        top: 25px;
+        text-align: center;
+
+}
+
+input {
+	margin-top: 20px;
+}
+
+p {
+	color: lime;
+	margin: 0;
+	font-size: 10px;
+}
+
+#calculated {
+	position: absolute;
+	background-color: brown;
+	left: 850px;
+	height: 400px;
+	width: 300px;
+	top: 10px;
+}
+
+#calculated h1 {
+	text-align: center;
+}
+
+#calc {
+	position: absolute;
+	left: 100px;
+}
+#results { 
+	position: absolute;
+	visibility: hidden;
+	left: 50px;
+	background-color: yellow;
+	height: 300px;
+	width: 200px;
+}
+
+
+
+
